@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Handy</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">    
+
+    <link rel="stylesheet" href="css/jquery-ui.1.11.2.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">        
+
+    <link href="css/global.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid admin-sidebar">
+        <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" id="mySidebar">
+            <div class="sidebarlogo">
+                <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="sidebar_close()">&times;</button>
+                <a href="./index.html" class="dashboardimg">
+                    <img src="./images/logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="sidebarcontent">
+                <div class="sidebar-btn">
+                    <ul>
+                        <li>
+                            <a href="./index.html" class="w3-bar-item w3-button">    
+                                <div class="sidebar-text">
+                                    <p>
+                                        <img src="./images/sidebar-dashboard.png" alt="">
+                                        <span>Dashboard</span></p>                         
+                                </div>                                            
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="w3-bar-item w3-button active">    
+                                <div class="sidebar-text">
+                                    <p>
+                                        <img src="./images/sidebar-summary_1128.png" alt="">
+                                        <span>Summary</span></p>                         
+                                </div>                                            
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="w3-bar-item w3-button">    
+                                <div class="sidebar-text">
+                                    <p>
+                                        <img src="./images/sidebar-measuresPath_1005.png" alt="">
+                                        <span>Lighting Measures</span></p>                         
+                                </div>                                            
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="w3-bar-item w3-button">    
+                                <div class="sidebar-text">
+                                    <p>
+                                        <img src="./images/sidebar-measuresPath_1005.png" alt="">
+                                        <span>Lighting Measures</span></p>                         
+                                </div>                                            
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="sidebar-bottom">
+                    <p>ComEd Program<br/>© 2019 Copyright</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container-fluid mainboard">
+            <button class="w3-button w3-hide-large hambugerbutton" style="float:left ;margin-top: 7px;" onclick="sidebar_open()">&#9776;</button>                        
+        </div>   
+
+        
+    </div>
+    <div class="container-fluid dashboard-content">Summary</div>
+    
+    <script>
+        function sidebar_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            $(".mainboard").css("margin-left", ($("#mySidebar").width() + 100));
+            $(".addposition").css("margin-top", "-35px");
+            addposition
+        }
+
+        function sidebar_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            $(".mainboard").css("margin-left", "0px");
+            $(".addposition").css("margin-top", "0px");
+            // $(".mainboard").addClass("controlmainborder");
+        }
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery-ui.1.11.2.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+</body>
+
+</html>

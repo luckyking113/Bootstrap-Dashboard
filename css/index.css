@@ -1,0 +1,128 @@
+.user_tag {
+    height: 122px;
+    background-color: #fafafa;   
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.11); 
+    padding: 20px 41px;
+    padding-top: 34px;
+}
+
+.userimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: #0077bb solid 1px;
+    float: left;
+    margin-right: 22px;
+}
+
+.userinfo h5 {
+    font-size: 24px;
+    color: #0077bb;
+    font-weight: 700;
+    letter-spacing: 0.14px;
+    font-family: Poppins;
+    padding: 0px;
+    margin: 2px;
+}
+
+.userinfo p {
+    color: #929292;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.11px;
+    margin: 0px;
+    margin-top: 2px;
+}
+
+.profile-setting-btn .btn {
+    width: 262px;
+    height: 58px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+
+.profile-setting-btn .btn:hover {
+    background-image: linear-gradient(180deg, #0077bb 0%, #0392e2 100%);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+    color: white;    
+}
+
+.profile-setting-btn .btn p {
+    color: #959595;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.dashboard-label {
+    padding: 41px 63px 21px;
+}
+
+.dashbaord-table {        
+    box-shadow: 0 0 30px rgba(3, 146, 226, 0.16);
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.table-action {
+    padding: 25px 29px;    
+    border-bottom: rgba(0, 0, 0, 0.1) solid 1px;    
+    margin: 0px 2px;
+}
+
+.table-action .btn {
+    height: 56px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 2px;
+    background-color: #ffffff;    
+    margin-right:30px;
+    color: #959595;
+}
+
+.table-action .btn:hover {
+    background-image: linear-gradient(180deg, #0077bb 0%, #0392e2 100%);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+    color: white;
+}
+
+.table-editable {
+    padding: 55px 26px;
+}
+
+.table-bordered {
+    border: 0px;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {    
+    border: 0px;
+}
+
+.index-table thead {
+    border-bottom: rgba(0, 0, 0, 0.1) solid 1px;
+}
+
+.index-table thead th {
+    color: #4a4a4a;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+.index-table tbody td {
+    opacity: 0.89;
+    color: #4a4a4a;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;    
+    padding: 20px 10px !important;
+}
+
+.customize-checkbox {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 3px;
+    background-color: #ffffff !important;
+}
+
